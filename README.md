@@ -1,5 +1,13 @@
 # ExtIssue217
 
+The issue can be reporduced in the `app.component.html` file
+
+* Hovering over the element does not give any hints
+** `<app-test-component [someText]="inboundText"></app-test-component>`
+* Clicking on `<app-test-component...` and hitting F12 gives: "No definition found for ...."
+* There is no code completion when entering `app-test-compon...`
+* The @Input's do not appear in the code hints
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
